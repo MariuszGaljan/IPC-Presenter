@@ -15,7 +15,7 @@ The program utilizes such IPC mechanisms as:
 
 ## How does it work?
 
-1. Run the **ipcPresenter** program from your terminal (see *Compilation* for details on creating).
+1. Run the **ipcPresenter** program from your terminal (see [Compilation](#compilation) for details on creating).
 
 2. The program launches **three** additional terminal windows, one for each process. To show the communication between them, every one of them prints out the PIDs of the processes.
 
@@ -45,5 +45,5 @@ Signals the processes react to:
 
 ## Compilation
 
-Just run **make** in your terminal.
-Run **make clean** if you want to delete the compiled files.
+Just run `make` in your terminal.
+Run `make clean` if you want to delete the compiled files.
