@@ -19,7 +19,7 @@ The program utilizes such IPC mechanisms as:
 
 2. The program launches **three** additional terminal windows, one for each process. To show the communication between them, every one of them prints out the PIDs of the processes.
 
-    ![Starting state image](README_img\ipcPresenter_begin.png)
+    ![Starting state image](https://github.com/MariuszGaljan/IPC-Presenter/blob/master/README_img/ipcPresenter_begin.png?raw=true)
 
 3. Process 1 reads the **input text** and sends it to process2.
 
@@ -27,11 +27,11 @@ The program utilizes such IPC mechanisms as:
 
 5. Process 3 prints out the number. Simple as that.
 
-    ![After input image](README_img\ipcPresenter_insert.png)
+    ![After input image](https://github.com/MariuszGaljan/IPC-Presenter/blob/master/README_img/ipcPresenter_insert.png?raw=true)
 
 6. To exit, send **SIGINT signal (Ctrl + C)**. The programs wait for any character, so the terminals don't close immediately
 
-    ![Finished state image](README_img\ipcPresenter_end.png)
+    ![Finished state image](https://github.com/MariuszGaljan/IPC-Presenter/blob/master/README_img/ipcPresenter_end.png?raw=true)
 
 
 
