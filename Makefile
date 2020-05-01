@@ -40,4 +40,4 @@ $(EXE_DIR)/process3: src/process3.c $(OBJ)
 clean:
 	rm -rf $(OBJ_DIR)
 	rm -rf $(EXE_DIR)
-	rm -f main
+	rm -f ipcPresenter
